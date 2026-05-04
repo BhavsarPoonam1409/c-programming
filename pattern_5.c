@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    //1
+    //1 1
+    //1 1 1
+
+    for(int i=1;i<=3;i++){
+        for(int j=1;j<=i;j++){
+            printf("1 ");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
